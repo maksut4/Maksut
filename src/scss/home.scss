@@ -1,0 +1,31 @@
+.home {
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 130px 15px 30px 15px;
+    }
+
+    &__first-text {
+        font-weight: 600;
+        font-size: 40px;
+    }
+    &__second-text {
+        font-weight: 600;
+        font-size: 40px;
+    }
+    &__third-text {
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    &__my-photo {
+        max-width: 500px;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+}

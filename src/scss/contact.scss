@@ -1,0 +1,98 @@
+.contact {
+    width: 100%;
+    color: #d0d0d5;
+    background-color: #2a2a40;
+
+    &__contacts-wrapper {
+        padding: 30px 15px 50px 15px;
+    }
+
+    &__network-icon {
+        margin-right: 8px;
+    }
+
+    &__network-link {
+        color: #d0d0d5;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__networkLinks-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__content-start {
+        text-align: center;
+    }
+
+    &__form {
+        max-width: 450px;
+        width: 100%;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        width: 100%;
+        background-color: #0a0a23;
+        height: 35px;
+        border: 1.5px solid #3b3b4f;
+        outline: none;
+        padding-left: 5px;
+        transition: linear 0.1s;
+        color: #fff;
+        font-weight: 600;
+
+        &:focus {
+            border-color: #fff;
+            transition: linear 0.1s;
+        }
+    }
+
+    &__label {
+        font-weight: 600;
+    }
+
+    &__wrapper {
+        display: flex;
+        gap: 40px;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+    }
+
+    &__textarea {
+        border: 1px solid #3b3b4f;
+        outline: none;
+        background-color: #0a0a23;
+        font-weight: 600;
+        padding-left: 5px;
+        padding-top: 5px;
+        color: #fff;
+        resize: none;
+        &:focus {
+            border-color: #fff;
+            transition: linear 0.1s;
+        }
+    }
+
+    &__send-btn {
+        height: 40px;
+        border: 2px solid #d0d0d5;
+        background-color: #3b3b4f;
+        color: #d0d0d5;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+
+        &:hover {
+            background-color: #dfdfe2;
+            color: #0a0a23;
+        }
+    }
+    
+}

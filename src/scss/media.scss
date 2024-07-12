@@ -1,0 +1,41 @@
+@media screen and (max-width: 835px) {
+    .header__nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        display: none;
+        background-color: #0a0a23;
+        top: 57px;
+        gap: 0;
+        right: 0;
+        max-width: 200px;
+        width: 100%;
+    }
+    .header__menu-active {
+        display: block;
+    }
+    .header__nav-wrapperLink {
+        width: 100%;
+        height: 45px;
+    }
+    .header__nav-link {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header__menu-button {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home__first-text, .home__second-text, .home__third-text {
+        font-size: 30px;
+    }
+    .content-start {
+        font-size: 30px;
+    }
+    .home__my-photo {
+        max-width: 350px;
+    }
+}
