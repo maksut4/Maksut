@@ -26,6 +26,17 @@ body {
     padding-bottom: 30px;
 }
 
+.link__to-fcc {
+    display: block;
+    padding: 0 0 50px 0;
+    color: #d0d0d5;
+    text-align: center;
+}
+
+.link__to-fcc:active {
+    color: #077fbe;
+}
+
 @import "header";
 @import "home";
 @import "about";

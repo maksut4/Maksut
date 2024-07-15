@@ -28,7 +28,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
     emailjs.sendForm(serviceID, templateID, this).then(
         () => {
             btn.value = "Send";
-            alert("Sent!");
+            alert("Your message has been sent to Maxut's email");
             document.getElementById("form").reset();
         },
         (err) => {
