@@ -28,13 +28,20 @@ body {
 
 .link__to-fcc {
     display: block;
-    padding: 0 0 50px 0;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 0;
     color: #d0d0d5;
     text-align: center;
 }
 
 .link__to-fcc:active {
     color: #077fbe;
+}
+
+.copyright {
+    padding: 20px 0 10px 0;
+    text-align: center
 }
 
 @import "header";
